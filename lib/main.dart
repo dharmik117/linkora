@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/foundation.dart';
 import 'package:provider/provider.dart';
 import 'package:go_router/go_router.dart';
 import 'core/router/app_router.dart';
@@ -10,6 +11,11 @@ import 'presentation/providers/category_provider.dart';
 import 'data/local/hive_service.dart';
 
 void main() async {
+  if (kReleaseMode) {
+    debugPrint = (String? message, {int? wrapWidth}) {};
+    FlutterError.onError = (FlutterErrorDetails details) {};
+  }
+  
   WidgetsFlutterBinding.ensureInitialized();
   
   // Initialize Local Database (Encrypted Hive)

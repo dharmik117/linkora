@@ -6,7 +6,7 @@
     <application
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher"
-        android:label="Linkora"
+        android:label="Linksy"
         android:allowBackup="false"
         android:fullBackupContent="false">
         <activity
@@ -36,7 +36,7 @@
                 <data android:mimeType="text/plain" />
             </intent-filter>
             <!-- Text selection popup integration -->
-            <intent-filter android:label="Save to Linkora">
+            <intent-filter android:label="Save to Linksy">
                 <action android:name="android.intent.action.PROCESS_TEXT" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <data android:mimeType="text/plain" />

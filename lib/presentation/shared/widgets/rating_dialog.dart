@@ -124,7 +124,7 @@ class _RatingDialogState extends State<RatingDialog> {
                       key: ValueKey(1),
                       children: [
                         Text(
-                          'Enjoying Linkora?',
+                          'Enjoying Linksy?',
                           style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold, color: Colors.white),
                         ),
                         SizedBox(height: 12),
@@ -160,7 +160,7 @@ class _RatingDialogState extends State<RatingDialog> {
                             ),
                             SizedBox(height: 12),
                             Text(
-                              'Your feedback helps us improve Linkora.',
+                              'Your feedback helps us improve Linksy.',
                               textAlign: TextAlign.center,
                               style: TextStyle(fontSize: 16, color: Colors.white54),
                             ),

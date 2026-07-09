@@ -49,7 +49,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 onChanged: (value) => setState(() => _searchQuery = value),
               )
             : const Text(
-                'Linkora',
+                'Linksy',
                 style: TextStyle(
                   fontSize: 32,
                   fontWeight: FontWeight.w900,

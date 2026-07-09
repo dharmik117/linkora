@@ -24,7 +24,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
     {
       'icon': '🖼️',
       'title': 'Premium\nVisuals.',
-      'subtitle': 'Experience the web like never before. Linkora automatically fetches beautiful, massive Twitter-style previews for your links.',
+      'subtitle': 'Experience the web like never before. Linksy automatically fetches beautiful, massive Twitter-style previews for your links.',
     },
     {
       'icon': '🪩',

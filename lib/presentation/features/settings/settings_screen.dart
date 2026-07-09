@@ -126,7 +126,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                   title: const Text('Share App', style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold)),
                   onTap: () {
                     _triggerHaptic();
-                    Share.share('Check out Linkora - The best way to securely save and share your links! Available now.');
+                    Share.share('Check out Linksy - The best way to securely save and share your links! Available now.');
                   },
                 ),
                 const Divider(color: Colors.white10, height: 1, indent: 56),
@@ -154,7 +154,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
           const SizedBox(height: 40),
           Center(
             child: Text(
-              'Linkora $_appVersion\nMade with ❤️ by Bharat Dev',
+              'Linksy $_appVersion\nMade with ❤️ by Bharat Dev',
               textAlign: TextAlign.center,
               style: const TextStyle(color: Colors.white38, fontSize: 12),
             ),
